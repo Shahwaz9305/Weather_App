@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="You can check weather of current location and a perticular location  ">
+    <meta name="keywords" content=" weather,current weather ,weather-app">
+    <meta name="robots" content="INDEX, FOLLOW">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <div class="container">
+                <!-- extra work -->
+                <!-- <form id="search-form">
+                    <input type="search"
+                    placeholder="Enter The City Name"
+                    id="search-input"
+                    required
+                    autocomplete="off"
+                    />
+                    <br>
+                </br>
+                <button id="search-button">Search</button>
+                </form>
+                     <div id="location">
+                        <p>Current location</p> 
+                     </div> -->
+        
+        
+                     <div id="location">
+                        <p>Current Location</p> 
+                     </div>
+        
+                  <!-- extra work -->
+        <div class="current-info">
+
+            <div class="date-container">
+                <div class="time" id="time">
+                    12:30 <span id="am-pm">PM</span>
+                </div>
+                <div class="date" id="date">
+                    Monday, 24 May
+                </div>
+                <div class="other" id="current-weather-items">
+
+                </div>
+            </div>
+            <div class="place-container">
+                                <!-- extra work -->
+                                <form id="search-form">
+                                    <input type="search"
+                                    placeholder="Enter The City Name"
+                                    id="search-input"
+                                    required
+                                    autocomplete="off"
+                                    />
+                                    <br>
+                                </br>
+                                <button id="search-button">Search</button>
+                                </form>
+                                     <!-- <div id="location">
+                                        <p>Current location</p> 
+                                     </div> -->
+
+                                     <div id=present>
+                                         <div id="temp">
+                                             <img class="temp-icon" id="temp-icon" src="./icons/suny.png" alt="">
+                                      <p><span id="tempvalue">Teperature </span> <span id="temp-unit">&#176C</span></p>
+                                  </div>
+                                  <div id="climate">
+                                    <p>Climate</p>
+                                  </div>
+                                     </div>
+                                  
+                        
+                        
+                        
+                                  <!-- extra work -->
+                <div class="time-zone" id="time-zone"></div>
+                <div class="country" id="country"></div>
+            </div>
+        </div>
+        
+
+    </div>
+
+    <div class="future-forecast">
+        <div class="today" id="current-temp">
+            <img src="./icons/suny.png" alt="temp-icon" class="temp-icon">
+            <div class="other">
+            <div class="day">Monday</div>
+            <div class="temp">Night - 25.6&#176; C</div>
+            <div class="temp">Day - 25.6&#176; C</div>
+            </div>
+ 
+
+        </div>
+        <div class="weather-forecast" id="weather-forecast">
+            <div class="weather-forecast-item">
+                <div class="day">Tue</div>
+                <img src="./icons/suny.png" alt="temp-icon" class="temp-icon">
+                <div class="temp">Night - 25.6&#176; C</div>
+                <div class="temp">Day - 25.6&#176; C</div>
+            </div>
+            <div class="weather-forecast-item">
+                <div class="day">Wed</div>
+                <img src="./icons/suny.png" alt="temp-icon" class="temp-icon">
+                <div class="temp">Night - 25.6&#176; C</div>
+                <div class="temp">Day - 25.6&#176; C</div>
+            </div>
+            <div class="weather-forecast-item">
+                <div class="day">Thu</div>
+                <img src="./icons/suny.png" alt="temp-icon" class="temp-icon">
+                <div class="temp">Night - 25.6&#176; C</div>
+                <div class="temp">Day - 25.6&#176; C</div>
+            </div>
+            <div class="weather-forecast-item">
+                <div class="day">Fri</div>
+                <img src="./icons/suny.png" alt="temp-icon" class="temp-icon">
+                <div class="temp">Night - 25.6&#176; C</div>
+                <div class="temp">Day - 25.6&#176; C</div>
+            </div>
+            <div class="weather-forecast-item">
+                <div class="day">Sat</div>
+                <img src="./icons/suny.png" alt="temp-icon" class="temp-icon">
+                <div class="temp">Night - 25.6&#176; C</div>
+                <div class="temp">Day - 25.6&#176; C</div>
+            </div>
+            <div class="weather-forecast-item">
+                <div class="day">Sun</div>
+                <img src="./icons/suny.png" alt="temp-icon" class="temp-icon">
+                <div class="temp">Night - 25.6&#176; C</div>
+                <div class="temp">Day - 25.6&#176; C</div>
+            </div>
+            <div class="weather-forecast-item">
+                <div class="day">Mon</div>
+                <img src="./icons/suny.png" alt="temp-icon" class="temp-icon">
+                <div class="temp">Night - 25.6&#176; C</div>
+                <div class="temp">Day - 25.6&#176; C</div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
